@@ -1,0 +1,4 @@
+XADD random-stream * agent-id 1234 build-queue 10
+XADD random-stream * agent-id 1234 build-queue 8
+XADD random-stream * job-id 34fwkfwblq duration 380
+XRANGE random-stream - + COUNT 3
